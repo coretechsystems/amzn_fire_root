@@ -7,7 +7,12 @@ This code is still ugly, please re-write it and send pull-requests, if you want 
 Building
 ========
 
-* Download the Android Native Development Kit (NDK): http://developer.android.com/tools/sdk/ndk/index.html#Downloads
+* Download the Android Native Development Kit (NDK): ~~http://developer.android.com/tools/sdk/ndk/index.html#Downloads~~
+	- Download specifically NDK r10e, available at the following:
+		- OSX: https://dl.google.com/android/repository/android-ndk-r12b-darwin-x86_64.zip
+		- Windows 32-bit: https://dl.google.com/android/repository/android-ndk-r10e-windows-x86.zip
+		- Windows 64-bit: https://dl.google.com/android/repository/android-ndk-r10e-windows-x86_64.zip
+		- Linux: https://dl.google.com/android/repository/android-ndk-r10e-linux-x86_64.zip
 
 * Extract into some directory and put that in your path: 
 	`export PATH=ANDK_DIR:$PATH`
@@ -48,3 +53,4 @@ Running
 
 * Run the command on the phone:
 	`adb shell /data/local/run_root_shell`
+~~~~
